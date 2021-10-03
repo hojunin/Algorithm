@@ -12,5 +12,7 @@ if (min - 45 < 0) {
     } else {
         hour = hour - 1;
     }
+} else {
+    min = min - 45;
 }
-console.log(hour, min);
+console.log(hour + ' ' + min);
